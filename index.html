@@ -1,0 +1,29 @@
+<!-- Note to myself:
+    This is because the HTML represents the initial page content, 
+    whereas the DOM represents the updated page content 
+    which was changed by the JavaScript code you wrote.
+ -->
+<html>
+  <body>
+    <div id="app"></div>
+
+    <script type="text/javascript">
+      // Select the div by its id 'app'
+      const app = document.getElementById("app");
+
+      // Create new H1 element
+      const header = document.createElement("h1");
+
+      // Create a new text node for the H1 element
+      const headerContent = document.createTextNode(
+        "Develop. Preview. Ship. 🚀"
+      );
+
+      // Append the text to the H1 element
+      header.appendChild(headerContent);
+
+      // Place the H1 element inside the div
+      app.appendChild(header);
+    </script>
+  </body>
+</html>
