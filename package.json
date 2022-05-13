@@ -1,0 +1,24 @@
+{
+  "name": "from-js-react-nextjs",
+  "version": "1.0.0",
+  "description": "[Next.js Introduction tutorials](https://nextjs.org/learn/foundations/about-nextjs)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n4ff4h/from-js-react-nextjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n4ff4h/from-js-react-nextjs/issues"
+  },
+  "homepage": "https://github.com/n4ff4h/from-js-react-nextjs#readme",
+  "dependencies": {
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
